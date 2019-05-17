@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="horloge_prof" version="4">
+  <OBJECT>
+    <ID name="horloge_prof" mc="Standard.Package" uid="4fd9be50-e4d6-4437-8213-52c4705b3f88"/>
+    <PID name="Horloge_Prof" mc="Standard.Project" uid="66b87d1c-c8eb-477c-b5bc-e04825948c15"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[horloge_prof]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Utilisateur" mc="Standard.Actor" uid="76888607-4436-4039-8afd-cba83c59a565"/>
+        <COMPID name="Effectuer les réglages" mc="Standard.UseCase" uid="dfee8215-dae4-492b-9b05-a2be09674648"/>
+        <COMPID name="Assurer le fonctionnement" mc="Standard.UseCase" uid="d6235fcb-fc22-4ff4-94a7-bf04f04b3538"/>
+        <COMPID name="Horloge" mc="Standard.Class" uid="cd13a35a-4f15-47d8-b474-0be8d4c1cfca"/>
+        <COMPID name="Cadran" mc="Standard.Class" uid="b2c2134f-73cf-40cc-a88c-c2548719309c"/>
+        <COMPID name="Clavier" mc="Standard.Class" uid="173a6858-7474-4d30-9ada-f327afe35db1"/>
+        <COMPID name="struct termios" mc="Standard.DataType" uid="133f1533-388f-4e71-abb7-9baad9dac652"/>
+        <COMPID name="time_t" mc="Standard.DataType" uid="ed17b65a-1443-433c-b940-1aea1af292c4"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="horloge_prof Use Case diagram" mc="Standard.UseCaseDiagram" uid="c58d754d-9ae9-4e80-ad2e-110dcd21515b"/>
+        <COMPID name="horloge_prof Class diagram" mc="Standard.ClassDiagram" uid="00182b7c-28c3-435c-9da5-3c5bb31b57e9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
