@@ -1,0 +1,43 @@
+.titreOmbre{
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    border:1px green solid;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width:200px ;
+    font-size: 20px;
+    height: auto;
+}
+
+.titreOmbre:hover{
+    box-shadow: 0px 0px 20px 5px greenyellow;
+    
+    
+}
+
+div.rond{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: red;
+    position: relative;
+   
+}
+
+div.rond:active{
+
+    animation: bougevertical 4s linear 0s infinite alternate;
+}
+
+
+@keyframes bougevertical{
+    0% {left:0px; top:00px}
+    50% {left:200px; top:00px}
+    100% {left:400px; top:0px}
+}
+
+div.degradeLineaire{
+    
+}

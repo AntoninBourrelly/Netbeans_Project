@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <script type="text/javascript">
+      function catsel(sel) {
+        //if (sel.value=="-1" ) return;
+        var opt=sel.getElementsByTagName("option" );
+        for (var i=0; i<opt.length; i++) {
+          var x=document.getElementById(opt[i].value);
+          if (x) x.style.display="none";
+        }
+        var cat = document.getElementById(sel.value);
+        if (cat) cat.style.display="block";
+      }
+    </script>
+<!--___________________________________________________________________________________________________________________________________________-->
+    
+    <head>
+            <title>•Sollae• Nos vidéos</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="menu_button.png"/>
+    </head>
+    <body> 
+     <header>
+        <a title="Accueil" href="../index.html"><img src="menu_button.png" alt="Button Menu" /></a> 
+        
+        <br>
+        
+        <br>
+        <table>
+            
+            
+            <tr><td><a href="Liste des produits.html"><img src="liste-button.png" alt="Liste button" /></a></td>
+              
+                <td><a href="Nos Vidéos.html"><img src="sol-button.png" alt="Solutions button" /></a></td>
+                <td><a href="information entreprise.html"><img src="info-button.png" alt="Informations entreprise button" /></a></td> </tr>
+   </table>
+        <a class="ligne"> <center> ____________________________________________________________________________________________________________________________________________________ </center></a>
+    </header>
+        <br>
+        <h1><b>Nos vidéos</b></h1>
+        
+        <table>
+      <tr>
+        <td class="choix">
+        Liste des vidéos :
+        
+          <select onchange="catsel(this)">
+          <!--<option value="-1">None</option>!-->
+            <option value="1">CIE-H14</option>
+            <option value="2">CIE-H12</option>
+            <option value="3">CIE-H10</option>
+            <option value="4">Gestion du réseau en série</option>
+            <option value="5">Les télécommande infra-rouge</option>
+            <option value="6">Porte vérouillage par téléphone</option>
+            <option value="7">CSE-T32:Console Server</option>
+            <option value="8">CSE-T48:console server</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div id="1" style="display:block">
+            <table border="0" cellspacing="3" cellpadding="0"><tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/5lHd7z7BL2U" frameborder="0" allowfullscreen></iframe></td></tr></table>
+          </div>
+          <div id="2" style="display:none">
+            <table border="0" cellspacing="3" cellpadding="0"><tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/1QHdFjUegGE" frameborder="0" allowfullscreen></iframe></td></tr></table>
+          </div>
+          <div id="3" style="display:none">
+            <table border="0" cellspacing="3" cellpadding="0"><tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/YIC6hwouNHs" frameborder="0" allowfullscreen></iframe></td></tr></table>
+          </div>
+          <div id="4" style="display:none">
+            <table border="0" cellspacing="3" cellpadding="0"><tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/Y7XK636K_JY" frameborder="0" allowfullscreen></iframe></td></tr></table>
+          </div>
+          <div id="5" style="display:none">
+            <table border="0" cellspacing="3" cellpadding="0"><tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/vw6hBJ-24GM" frameborder="0" allowfullscreen></iframe></td></tr></table>
+          </div>
+          <div id="6" style="display:none">
+            <table border="0" cellspacing="3" cellpadding="0"><tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/LsW-xe4HtgM" frameborder="0" allowfullscreen></iframe></td></tr></table>
+          </div>
+          <div id="7" style="display:none">
+            <table border="0" cellspacing="3" cellpadding="0"><tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/_VEQ8mLnNbo" frameborder="0" allowfullscreen></iframe></td></tr></table>
+          </div>
+          <div id="8" style="display:none">
+            <table border="0" cellspacing="3" cellpadding="0"><tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/HiCv7PQ8fGk" frameborder="0" allowfullscreen></iframe></td></tr></table>
+          </div>
+        </td>
+      </tr>
+    </table>
+    </body>
+</html>

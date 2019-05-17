@@ -1,0 +1,76 @@
+nav ul {
+    padding: 0x;
+    margin: 0x;
+    list-style-type:none;
+    background-color: #53484c;
+}
+
+nav li {
+    /* display:inline-block;*/
+    width: 222px;
+    height:40px;
+    margin: 5px;
+    padding: 0px;
+    text-align: center;
+    line-height:40px;
+
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    color:#FFFFFF; 
+}
+
+nav li :hover{
+    background: #cd5334;
+}
+
+
+body{
+    background-color:#c8cffc;
+    
+}
+
+.acc{
+    position: absolute;
+    top: 10px;
+    left: 40%;
+}
+
+.menu{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: #53484c;
+    overflow: hidden;
+    right: 98%;
+    top: 0px;
+    text-align: center;
+    z-index: 150;
+}
+
+
+
+.menu:hover #menupng{
+    left: -100000px;
+}
+
+#menupng{
+    position: absolute;
+    top: 0%;
+    left: 85%;
+
+}
+
+div.menu:hover{
+    animation: bougevertical 0.2s linear 0s alternate;
+
+    animation-fill-mode: forwards;
+}
+
+@keyframes bougevertical{
+    0% {right:98%; top:00px}
+    50% {right:90%; top:00px}
+    100% {right:85%; top:0px}
+}

@@ -1,0 +1,229 @@
+#entete{
+    background-image: url('images/bando.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 22%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 1px black;
+    text-align: center;
+}
+
+#fond{
+    background-image: url('images/fond.jpg');
+    background-size: 100% 98%;
+    width: 100%;
+    height: 80%; 
+    top: 170px;
+    left: 0px;
+    position: absolute;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+#drapeau{
+    width: 20%;
+    height: 20%; 
+    top: 550px;
+    left: 20px;
+    position: absolute;
+    opacity: 1;  
+}
+
+/****** Affichage du menu ********/
+#menu{
+    position: absolute;
+    top: 250px;
+    left: 15px;
+    width: auto;
+
+
+}
+
+#menu>li{
+    list-style-type: none;
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: #99ccff;
+    color: black;
+}
+
+#menu>li:hover{
+    background-color: #99ff99;
+   
+}
+
+#menu>li>ul{
+    position: absolute;
+    list-style-type: none;
+    left: -100000px;
+}
+
+#menu>li:hover ul{
+position: relative;
+left: auto;
+margin-left: -5px;
+}
+
+#menu>li>ul>li{
+    list-style-type: none;
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: #99ccff;
+}
+
+#menu>li>ul>li:hover {
+    border: 1px black solid;
+    border-radius: 3px;
+    background-color: #ff6666;
+    position: relative;
+}
+
+#menu>li>a , #menu>li>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*********** Fin Menu ********************/
+
+#cadreCentral{
+    position: absolute;
+    right: 40px;
+    top: 200px;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    border: 1px black solid;
+
+
+}
+
+/* Affichage image page accueil.html*/
+#map{  
+    position: absolute;
+    top: 100px;
+    left: 255px;  
+}
+
+/* Affichage image1 et image2 page strawberryFields.html*/
+#image1StrawberryFields{
+    background-image: url('images/strawberryFields.jpg');
+    background-size: 100% 100%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+#image2StrawberryFields{
+    background-image: url('images/imagine.jpg');
+    background-size: 100% 100%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 110px;
+    left: 460px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+/* Affichage image page centralParkLePont.html*/
+#imageLePont{
+    background-image: url('images/lePont.jpg');
+    background-size: 100% 100%;
+    width: 98%;
+    height: 70%;
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+/* Affichage image1 et image2 page brooklyn.html*/
+#image1Brooklyn{
+    background-image: url('images/Brooklyn.jpg');
+    background-size: 100% 100%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+#image2Brooklyn{
+    background-image: url('images/rueBrooklyn.jpg');
+    background-size: 100% 100%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 110px;
+    left: 460px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+/* Affichage image1, image2 et image3 page statueDeLaLiberte.html*/
+
+#image1liberty{
+    background-image: url('images/libertyIsland.jpg');
+    background-size: 100% 100%;
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+#image2liberty{
+    background-image: url('images/statue1.jpg');
+    background-size: 100% 100%;
+    width: 22%;
+    height: 45%;
+    position: absolute;
+    top: 110px;
+    left: 460px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+
+}#image3liberty{
+    background-image: url('images/statue2.jpg');
+    background-size: 100% 100%;
+    width: 22%;
+    height: 45%;
+    position: absolute;
+    top: 110px;
+    left: 680px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}
+
+
+
+/* Affichage image page vueSurManhattan.html*/
+
+
+#imageManhattan{
+    background-image: url('images/vueSurManhattan.jpg');
+    background-size: 100% 100%;
+    width: 98%;
+    height: 70%;
+    position: absolute;
+    top: auto;
+    left: auto;
+    background-repeat: no-repeat;  
+    display: inline-block;
+}

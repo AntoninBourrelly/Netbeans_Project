@@ -1,0 +1,54 @@
+
+body{
+    width: 100%
+}
+
+.cadreHautGauche {
+
+    position: absolute;
+    background-color: #ffcc99;
+    width: 50%;
+    height: 50%;
+   z-index: -1;
+    
+}
+
+.cadreHautDroit {
+
+    position: absolute;
+    background-color: #99ff99;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    z-index: 0;
+}
+
+.cadreBasGauche{
+
+    position: absolute;
+    background-color: #9999ff;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    z-index: 1;
+}
+
+.cadreBasDroit{
+
+    position: absolute;
+    background-color: #ff99cc;
+    width: 50%;
+    height: 50%;
+    right: 0%;
+    top: 50%;
+    z-index: 2;
+}
+
+.page{
+    
+    z-index: 3;
+    position: absolute;
+    bottom: 0%;
+    right: 0%
+    
+}

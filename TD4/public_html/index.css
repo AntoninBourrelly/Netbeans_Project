@@ -1,0 +1,68 @@
+#titre {
+
+    color: blue;
+    background-color: #ffff99;
+    border: 5px pink solid;
+    width: 30%;
+    text-align: center;
+    position: static;
+    border-style: ridge;
+    font-style: initial;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+.cdn1 {
+
+    color: purple;
+    border-style: groove;
+    border-color: blue;
+    width: 20%;
+    text-align: center;
+
+}
+
+.pol1 {
+
+    
+    position: relative;
+    font-family: "Courier 10 Pitch";
+    left: 60px;
+
+}
+
+
+.cdn2 {
+
+    position: relative;
+    background-color: salmon;
+    width: 20%;
+    text-align: center;
+    font-family: "Century Schoolbook L";
+    left: 100px;
+
+}
+
+.pol2 {
+
+    
+    position: relative;
+    font-family: "Century Schoolbook L";
+    left: 140px;
+
+}
+
+
+.pol1_1 {
+    
+    position: relative;
+    font-family: "Courier 10 Pitch";
+    left: 140px;
+
+    
+}

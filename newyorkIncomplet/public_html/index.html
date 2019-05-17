@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>New York</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="newyork.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!--   Affichage de l'image en bandeau et du titre -->
+        <div id="entete">Visite de New York</div>
+
+        <!--  Affichage de l'image de fond  -->
+        <div id="fond">
+        </div>   
+
+        <!--  Affichage du menu  -->
+        <div>
+            <a href="accueil.html" target="cadreCentral">Retour Accueil</a>
+            <ul id="menu" >
+
+                <li><a style="text-decoration: none; color: black;" href="accueil.html" target="cadreCentral">Accueil</a></li>
+                <li >Central Park
+                    <ul>
+                        <li><a  href="Strawberry_fields.html" target="cadreCentral">Strawberry Fields</a></li>
+                        <li><a  href="le_pont.html" target="cadreCentral">Le Pont</a></li>
+                    </ul>
+                <li>
+                    <a style="text-decoration: none; color: black;" href="brooklyn.html" target="cadreCentral">Brooklyn</a>
+                </li>
+                <li>Liberty Island
+                    <ul>
+                        <li><a href="Liberty_land.html" target="cadreCentral">Statue de la liberté</a></li>
+                        <li><a href="Manhattan.html" target="cadreCentral">Vue sur Manhattan</a></li>
+
+                    </ul>
+
+                </li>
+            </ul>
+
+        </div>     
+
+        <div>
+            <img  id="drapeau"  src="images/drapeau.jpg  " alt="drapeau"/>
+        </div>  
+
+        <!--  Fenêtre dans la page   -->
+        <iframe id="cadreCentral" name="cadreCentral" src="accueil.html"> 
+        </iframe>
+    </body>
+</html>

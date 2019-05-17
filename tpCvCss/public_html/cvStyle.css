@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 sept. 2018, 09:13:12
+    Author     : abourrelly
+*/
+
+.titre{
+    text-align: center;
+    color: blue;
+}
+
+
+
+/*---------En-Tête-------------*/
+
+table{
+    position: absolute;
+    background: antiquewhite;
+    width: 50%;
+    height: 150px;
+    left: 25%;
+}
+
+td{
+    width: 50%;
+    text-align: center;
+}
+
+#img-tete{
+    text-align: left;
+    height: auto;
+}
+
+
+#en-tête{
+    position: absolute;
+    width: 1100px;
+    height: 150px;
+    border: 2px blue solid;
+    top: 0px;
+    
+}
+
+.italique{
+    font-style: italic;
+}
+
+img{
+    width: 60px;
+
+}
+
+
+
+/*--------------Languages de programmations---------------*/
+
+#ldp{
+    border: 2px blue solid;
+    position: absolute;
+    top: 155px;
+    width: 546px;
+    height: 350px;
+}
+
+ol{
+    font-weight: bold;
+}
+
+li{
+    font-weight: normal;
+}
+
+/*-------------Connaissances Sur Les Réseaux------------*/
+
+#cslr{
+    border: 2px blue solid;
+    position: absolute;
+    top: 155px;
+    width: 548px;
+    height: 350px;
+    left: 560px;
+    text-align: center;
+}
